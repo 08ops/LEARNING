@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page center */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+/* Card container */
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Counter number */
+#count {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+    background: #0056b3;
+}
+
+/* Optional different colors */
+.decrease {
+    background: #dc3545;
+}
+
+.decrease:hover {
+    background: #a71d2a;
+}
+
+.reset {
+    background: #6c757d;
+}
+
+.reset:hover {
+    background: #4a4f54;
+}
