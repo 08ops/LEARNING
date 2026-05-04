@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <h3>Welcome back! Please login to your account.</h3>
+
+        <form onsubmit="login(event)">
+            <input type="text" id="username" placeholder="Enter username" required>
+
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="message"></p>
+        <a href="signup.html" id="signup-link" class="signup-link">Don't have an account? Sign up</a>
+
+        <a href="index.html">Back to Home</a>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e2b3b3;
+    color: rgb(244, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #222;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkorange;
+}
+.signup-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color:rgb(57, 152, 73)
+}
+a {
+    padding: 10px;
+    color: orange;
+}

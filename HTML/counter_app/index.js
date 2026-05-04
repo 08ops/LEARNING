@@ -24,5 +24,10 @@ let counter = 0
    console.log(counter)
  }
 
+ function reset() {
+   counter = 0
+   count.innerHTML = counter
+ }
+
 
 

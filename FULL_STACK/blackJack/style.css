@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.game-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: gold;
+}
+
+.score-board {
+    background: #1f1f1f;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+#message {
+    font-size: 22px;
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.table {
+    background: darkgreen;
+    padding: 30px;
+    border-radius: 20px;
+    border: 8px solid #5c3a1e;
+}
+
+.dealer-section,
+.player-section {
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.card {
+    width: 80px;
+    height: 120px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+.hidden-card {
+    background: crimson;
+    color: white;
+}
+
+.controls {
+    margin-top: 25px;
+}
+
+button {
+    padding: 12px 22px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    background: gold;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+}
